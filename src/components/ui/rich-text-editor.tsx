@@ -55,6 +55,8 @@ export const RichTextEditor = ({ value, onChange, placeholder }: RichTextEditorP
         config={{
           licenseKey: "GPL",
           language: "es",
+          // eslint-disable-next-line @typescript-eslint/ban-ts-comment
+          //@ts-ignore
           translations: [esTranslations],
           plugins: [
             Essentials,
@@ -79,6 +81,8 @@ export const RichTextEditor = ({ value, onChange, placeholder }: RichTextEditorP
             FontBackgroundColor,
           ],
           toolbar: {
+            // eslint-disable-next-line @typescript-eslint/ban-ts-comment
+            //@ts-ignore
             items: [
               "undo",
               "redo",
@@ -111,6 +115,8 @@ export const RichTextEditor = ({ value, onChange, placeholder }: RichTextEditorP
           fontBackgroundColor: CKEDITOR_FONT_COLOR_CONFIG,
           placeholder: placeholder || "Escribe aquí...",
           image: {
+            // eslint-disable-next-line @typescript-eslint/ban-ts-comment
+            //@ts-ignore
             toolbar: [
               "imageTextAlternative",
               "toggleImageCaption",
