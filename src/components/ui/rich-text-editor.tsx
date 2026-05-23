@@ -23,7 +23,7 @@ import {
   FontColor,
   FontBackgroundColor,
 } from "ckeditor5";
-import esTranslations from "ckeditor5/dist/translations/es.js";
+import esTranslations from "ckeditor5/translations/es.js";
 import "ckeditor5/ckeditor5.css";
 import { CKEDITOR_FONT_COLOR_CONFIG } from "@/lib/richText";
 

@@ -1,5 +1,10 @@
 /// <reference types="vite/client" />
 
+declare module "ckeditor5/translations/es.js" {
+  const translations: Record<string, unknown>;
+  export default translations;
+}
+
 interface ImportMetaEnv {
   readonly VITE_R2_ACCOUNT_ID: string;
   readonly VITE_R2_ACCESS_KEY_ID: string;
