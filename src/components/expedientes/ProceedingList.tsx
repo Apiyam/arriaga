@@ -18,7 +18,7 @@ import { AddSpendingModal } from "@/components/gastos/AddSpendingModal";
 import { ResourceDataTable } from "@/components/shared/ResourceDataTable";
 import { StatusBadge } from "@/components/shared/StatusBadge";
 
-const TEXT_COL = "w-[300px] max-w-[300px]";
+const TEXT_COL = " max-w-[300px]";
 const ACTIONS_COL = "w-[210px] min-w-[210px]";
 
 function TruncatedText({ value }: { value?: string | null }) {
